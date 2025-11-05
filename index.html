@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxmi Mettin | Resume & BioData</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="mainContainer">
+        <div class="welcome-page">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Select what you want to view:</p>
+            <div class="button-container">
+                <button onclick="showSection('resume')" class="cta-btn">View Resume</button>
+                <button onclick="showSection('biodata')" class="cta-btn">View BioData</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Section -->
+    <div class="resume-section hidden" id="resume">
+        <div class="resume-container">
+            <div class="left-panel">
+                <img src="laxmi_photo.jpg" alt="Profile Photo" class="profile-img">
+
+                <div class="section">
+                    <h3>My Contact</h3>
+                    <p>📧 laxmimettin@gmail.com</p>
+                    <p>📞 +91 8660708961</p>
+                    <p>📍 Hubli</p>
+                    <p>🔗 <a href="https://www.linkedin.com/in/laxmi-mettin-20a7872b3" target="_blank">LinkedIn</a></p>
+                    <p>📸 <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+                </div>
+
+                <div class="section">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Team Work</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English</li>
+                        <li>Kannada</li>
+                        <li>Hindi</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Pencil Sketch</li>
+                        <li>Reading History Books</li>
+                        <li>chess</li>
+                        <li>carrom</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <h1>LAXMI GURUSHIDDAPPA METTIN</h1>
+                <h2>Computer Science Engineering</h2>
+
+                <div class="about">
+                    <h3>About Me</h3>
+                    <p>
+                        I am a 5th-semester student with a strong interest in programming and software development.
+                        Enthusiastic about learning new technologies and applying my skills to real-world projects.
+                        I aim to contribute to the industry by building efficient and innovative software solutions.
+                    </p>
+                </div>
+
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li><b>(2023–2027)</b> <br>- B.E., SKSVMA College of Engineering, Lakshmeshwar (8.9 CGPA)</li>
+                        <li><b>(2021–2023)</b> <br>- KLE PC Jabin Science College, Hubli (87.16%)</li>
+                        <li><b>(2020–2021)</b> <br>- SSK Sri Ram English Medium School, Hubli (88.48%)</li>
+                    </ul>
+                </div>
+
+                <div class="certificates">
+                    <h3>Certificates</h3>
+                    <ul>
+                        <li>NPTEL Online Soft Skills Training</li>
+                        <li>C Programming Online Test - IIT Bombay</li>
+                        <li>Programming Quiz - SKSVMACET</li>
+                        <li>12-Hour National Level Hackathon - AGMR College</li>
+                        
+                    </ul>
+                </div>
+
+                <button onclick="goBack()" class="back-btn">⬅ Back</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- BioData Section -->
+    <div class="biodata-section hidden" id="biodata">
+        <div class="biodata-container">
+            <h1>BioData</h1>
+            <p><strong>Name:</strong> Laxmi Gurushiddappa Mettin</p>
+            <p><strong>Father’s Name:</strong> Gurushiddappa Mettin</p>
+            <p><strong>Mother's Name:</strong>  Manjula Mettin</p>
+            <p><strong>Siblings:</strong> brother</p>
+            <p><strong>Date of Birth:</strong> 14th November 2005</p>
+            <p><strong>Gender:</strong> Female</p>
+            <p><strong>Marital Status:</strong> Single</p>
+            <p><strong>Religion:</strong> Hindu</p>
+            <p><strong>Languages Known:</strong> English, Kannada, Hindi</p>
+            <p><strong>Address:</strong> Hubli, Karnataka, India</p>
+            <p><strong>Hobbies:</strong> pencil sketch, chess, carrom, mehendi</p>
+            <button onclick="goBack()" class="back-btn">⬅ Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
